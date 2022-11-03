@@ -19,19 +19,20 @@
 1. function statement 함수 선언문
 
 
-       //function statement
-  function a() { console.log('a'); }
+         //function statement
+        function a() { console.log('a'); }
 
 
 2. function expression 함수 표현식
 
-      // function expression
-var b = function () { console.log('b'); };
-var c = () => { console.log('c') };
+
+         // function expression
+       var b = function () { console.log('b'); };
+       var c = () => { console.log('c') };
 
 
 3. Function 생성자
 
 
-     // Function 생성자
-var d = new Function("console.log('d')");
+           // Function 생성자
+        var d = new Function("console.log('d')");
